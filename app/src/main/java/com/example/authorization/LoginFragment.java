@@ -45,7 +45,6 @@ public class LoginFragment extends Fragment {
             requireActivity().getSupportFragmentManager().beginTransaction()
                    .replace(R.id.fragmentContainerView, new MainFragment())
                    .commit();
-            Toast.makeText(getContext(), login + " " + password, Toast.LENGTH_SHORT).show();
         });
         return view;
     }
